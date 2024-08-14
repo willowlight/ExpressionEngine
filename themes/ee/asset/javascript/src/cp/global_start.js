@@ -240,7 +240,7 @@ EE.cp.validateLicense = function() {
 		return;
 	}
 
-	var installedAddons = JSON.parse(EE.cp.installedAddons);
+	var installedAddons = "";
 
 	$.ajax({
 		type: 'POST',
